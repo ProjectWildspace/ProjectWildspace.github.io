@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Wildspace</title>
+        <link rel="stylesheet" href="cssFiles/styles.css">
+    </head>
+
+    <body>
+		<header>
+			<nav id="navbar">
+					<b id="projectName">Project Wildspace</b>
+					<a class="navlink" style="color: black" href="index.html">About</a>
+					<a class="navlink" href="htmlFiles/download.html">Download</a>
+					<a class="navlink" href="htmlFiles/technologies.html">Technologies</a>			
+			</nav>			
+		</header>
+
+		<main id="main-content">
+			<h1>Project Wildspace</h1>
+			<div id="swapping-image-container">
+				<img id="swapping-image" src="images/wildspace1.jpg"/>
+				<img id="swapping-image2" src="images/wildspace2.jpg"/>
+			</div>
+	
+			<fieldset id="aboutUs">
+				<legend>About us</legend>
+				<p class="mainText">
+				We are a team of 3 computer science students from the University of Central Florida who are excited to be competing in KnightHacks 2023. This project has taught us so much about the software development process, and we hope our Generative AI Dungeons and Dragons tool is impressive to you.
+				</p>
+			</fieldset>
+	
+			<fieldset id="problemStatement">
+				<legend>Problem statement</legend>
+				<p class="mainText">
+				Creating Impromptu pieces of worldbuilding while running a Dungeons and Dragons game can be hard for the Dungeon Master, and quite frankly many of the assisting applications that already exist in the community are riddled with problems.
+				</p>
+				<p class="mainText">They are not truly generative</p>
+				<p class="mainText">
+					Many of these software, rather than being generative, pick 1 random line from an immensely large text file of parameters. Theoretically, it is possible to get the same character twice, even moreso with smaller-scale projects.	
+				</p>
+				<p class="mainText">They lack the ability to contextualize</p>
+				<p class="mainText">
+					Some of these software may return elements of worldbuilding that are completely out of context of the world. Especially in flavor, a character may be generated wearing a Rolex, despite being set in a steampunk world. Currently, there is no tool that properly contextualizes a Dungeons and Dragons campaign other than our software - Project Wildspace - making it a first of its kind.
+				</p>
+			</fieldset>
+	
+			<fieldset id="wildSpaceDesc">
+				<legend>What is Wildspace</legend>
+				<p class="mainText">
+					Wildspace is a Graphical User Interface that generates a plethora of worldbuilding elements for a D&D campaign, but when it comes to D&D, a concept is much more than what it does, but instead how it does it.
+					The name Project Wildspace is a reference to a canon D&D concept, that every cumulated campaign across all players each exist in a crystal ball, floating in an infinitely expansive plane, and all of that space in between is the Wildspace.
+					Instead of generating a character, town, or building, our software peers into the never-ending Wildspace and retrieves one of the inconcievably many people, places, or things, that already exist in the vast Wildspace.
+				</p>
+			</fieldset>
+		</main>
+		<script src="jsFiles/index.js"></script>
+    </body>
+</html>

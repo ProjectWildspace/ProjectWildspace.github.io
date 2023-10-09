@@ -1,0 +1,44 @@
+:root {
+    --bg-color: #282a36;
+    --main-textc: #fff8de;
+    --nav-color: #b799e3;
+
+    --small-margin: 20px;
+    --mid-margin: 40px;
+    --large-margin: 100px;
+
+    --image-width: 700px;
+    --image-height: 500px;
+    --small-animation-timer: 3s;
+    
+    --small-font: 20px;
+    --mid-font: 35px;
+
+    --tiny-border-width: 1px;
+    --small-border-width: 5px;
+}
+
+html {
+    background-color: var(--bg-color);
+    color: var(--main-textc);
+    height: 100%;
+}
+body {margin: 0; padding: 0;}
+
+/* Nav Bar */
+#navbar {
+    background-color: var(--nav-color);
+    min-width: 100vw;
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#projectName {left: var(--small-margin); position: absolute; font-size: min(var(--mid-font), 1.5vw);}
+.navlink {
+    font-size: min(var(--small-font), 1.5vw);
+    display: inline;
+    color: var(--main-textc);
+    margin: 0 var(--small-margin) 0 var(--small-margin);
+}
+/*Nav Bar end */
