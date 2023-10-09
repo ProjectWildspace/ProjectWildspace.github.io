@@ -19,6 +19,7 @@
     
     --small-font: 20px;
     --mid-font: 35px;
+    --big-font: 50px;
     --font-fam: Trebuchet MS, sans-serif;
 
     --tiny-border-width: 1px;
@@ -28,6 +29,15 @@
 html {font-family: var(--font-fam);}
 
 main {color: var(--alt-textc);}
+
+.comingsoon {
+
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
 
 .screenshot {
     margin: var(--small-margin) var(--small-margin) 0 0;
