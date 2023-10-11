@@ -109,13 +109,13 @@ fieldset {
 
     /* Adjust font size for mobile navigation links */
     .navlink {
-        font-size: 14px; /* Adjust font size for mobile screens */
-        margin: 0 10px 0 10px; /* Adjust margin for mobile screens */
+        font-size: 12px; /* Adjust font size for mobile screens */
+        margin: 0 7px 0 7px; /* Adjust margin for mobile screens */
     }
 
     /* Adjust font size for the header text */
     #projectName {
-        font-size: 18px; /* Adjust as needed */
+        font-size: 16px; /* Adjust as needed */
     }
 
 }
