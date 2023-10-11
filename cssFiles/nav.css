@@ -41,4 +41,18 @@ body {margin: 0; padding: 0;}
     color: var(--main-textc);
     margin: 0 var(--small-margin) 0 var(--small-margin);
 }
+
+/* Mobile Responsive Nav Bar */
+@media screen and (max-width: 768px) {
+    .navlink {
+        font-size: 14px; /* Adjust font size for mobile screens */
+        margin: 0 10px 0 10px; /* Adjust margin for mobile screens */
+    }
+
+    /* Adjust font size for the header text */
+    #projectName {
+        font-size: 18px; /* Adjust as needed */
+    }
+
+}
 /*Nav Bar end */

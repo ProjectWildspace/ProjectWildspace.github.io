@@ -79,3 +79,43 @@ fieldset {
     font-size: min(var(--small-font), 1.5vw);
     word-wrap: break-word;
 }
+
+/* Media Query for Mobile Viewport */
+@media screen and (max-width: 768px) {
+    #swapping-image-container {
+        margin: auto;
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    #swapping-image, #swapping-image2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    fieldset {
+        margin: var(--mid-margin) auto var(--mid-margin) auto;
+        border: var(--small-border-width) groove var(--nav-color);
+        width: min(var(--image-width), 50vw);
+    }
+
+    .mainText {
+        padding: var(--tiny-padding);
+        font-size: 16px;
+        word-wrap: break-word;
+        text-align: center; /* Center text inside fieldset */
+    }
+
+    /* Adjust font size for mobile navigation links */
+    .navlink {
+        font-size: 14px; /* Adjust font size for mobile screens */
+        margin: 0 10px 0 10px; /* Adjust margin for mobile screens */
+    }
+
+    /* Adjust font size for the header text */
+    #projectName {
+        font-size: 18px; /* Adjust as needed */
+    }
+
+}
