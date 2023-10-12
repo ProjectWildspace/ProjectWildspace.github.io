@@ -47,6 +47,19 @@ body {margin: 0; padding: 0;}
 }
 /*Nav Bar end */
 
+/* Buttons */
+.btn {
+    background: #b799e3;
+    color: #F7FFF7;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+.btn:hover {
+    background: rgba(92, 5, 150, 0.8);
+  }
+
 /* Main Content */
 #main-content {
     text-align: center;
